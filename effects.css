@@ -1,0 +1,86 @@
+body{
+    size: large;
+    color: aqua;
+    background-color: lightgoldenrodyellow;
+}
+
+header{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+main{
+    background-color: black;
+    size: large;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer{
+    background-color: black;
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    text-shadow: 0 0 10px blue;
+}
+
+section{
+    margin: auto;
+}
+
+
+
+h1{
+    margin:auto;
+    color: black;
+    font-size: 50px;
+}
+h2{
+    margin: auto;
+    font-size: 30px;
+}
+
+
+.bodyTitle{
+    margin:auto;
+    color: aqua;
+    font-size: 50px;
+    text-shadow: 0 0 10px blue;
+}
+
+.box{
+    margin: auto;
+    width : 50px;
+    height : 50px;
+    background-color: aqua;
+    border: 6px solid white;
+    border-radius: 15%;
+    animation: rotate 4s infinite;
+    animatin-timing-function: exponential;
+    box-shadow: 0 0 10px 5px white;
+}
+.box:hover{
+    background-color: white;
+    border-color: red;
+    box-shadow: 0 0 10px 5px red;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform:translateX(100px) rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
