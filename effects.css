@@ -17,6 +17,8 @@ main{
     size: large;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -33,24 +35,21 @@ footer{
 }
 
 section{
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
 }
 
-
-
-h1{
+.headerTitle{
     margin:auto;
     color: black;
     font-size: 50px;
 }
-h2{
-    margin: auto;
-    font-size: 30px;
-}
 
 
-.bodyTitle{
-    margin:auto;
+.mainTitle{
     color: aqua;
     font-size: 50px;
     text-shadow: 0 0 10px blue;
@@ -75,12 +74,12 @@ h2{
 
 @keyframes rotate{
     0%{
-        transform: rotate(0deg);
+        transform:translateX(-100px) rotate(-90deg);
     }
     50%{
-        transform:translateX(100px) rotate(180deg);
+        transform:translateX(200px) rotate(180deg);
     }
     100%{
-        transform: rotate(360deg);
+        transform:translateX(-100px) rotate(-90deg);
     }
 }
