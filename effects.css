@@ -63,7 +63,7 @@ section{
     border: 6px solid white;
     border-radius: 15%;
     animation: rotate 4s infinite;
-    animatin-timing-function: exponential;
+    animation-timing-function: exponential;
     box-shadow: 0 0 10px 5px white;
 }
 .box:hover{
@@ -82,4 +82,10 @@ section{
     100%{
         transform:translateX(-100px) rotate(-90deg);
     }
+}
+
+
+#artistsList {
+  display:flex;
+  flex-direction: row;
 }
