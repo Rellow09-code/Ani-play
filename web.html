@@ -1,58 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="effects.css">
-    <script src="index.js"></script>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info about Hulisani</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Hulisani Netshaulu</title>
+    <link rel="stylesheet" href="effects.css" />
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <h1 class="headerTitle">Personal Information</h1>
-        <nav>
-            <ul class="navigs">
-                <li><button>Home</button></li>
-                <li><button>About</button></li>
-                <li><button onclick="window.scrollTo(0,document.body.scrollHeight);">contact</button></li>
+    <header class="header">
+        <div class="logo">Hulisani<span>.</span></div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="web.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <header>
-            <h1 class="mainTitle">Details about Hulisani Innocent Netshaulu</h1>
-        </header>
-        <section>
-            <h2>Introduction</h2>
-            <p>
-                My name is <b>Hulisani Innocent Netshaulu</b>, and I am a tech and gaming enthusiast who is passionate<br>
-                about technology and gaming. I am a student at the University of the Witwatersrand,<br>
-                pursuing a Bachelor of Science in Computer Science.<br>
-                I am a programmer who is always eager to learn new things and improve my skills.<br>
-                <p class="box"></p>
+
+    <main class="container">
+        <section class="intro">
+            <h1 class="title">Hello, I’m Hulisani Innocent Netshaulu 👋</h1>
+            <p class="subtitle">
+                A Computer Science student passionate about <strong>software development</strong>,
+                <strong>algorithms</strong>, and <strong>problem-solving</strong>.
+                I create solutions that impact lives and make technology accessible for everyone.
             </p>
         </section>
 
-        <section>
-            <h2>My Hobbies</h2>
-            <p>
-                I enjoy playing chess, as it helps me think strategically and improve my logical skills.<br>
-                I also love playing video games as a way to relax and have fun.<br>
-                Reading books is another hobby of mine, which allows me to learn new things and expand my knowledge.<br>
-                I am also a fan of Amapiano music and enjoy listening to good songs from around the world.
-            </p>
-            <p>Contact me:</p><br>
-            <p>Email: businessnetshaulu@gmail.com</p>
-            <p>Phone1: +27 76 612 7732</p>
-            <p>Phone2: +27 62 421 0037</p>
+        <section class="info-grid">
+            <div class="card">
+                <h2>🎓 Education</h2>
+                <p>BSc Computer Science — University of the Witwatersrand, Johannesburg</p>
+            </div>
+
+            <div class="card">
+                <h2>🏆 Achievements</h2>
+                <ul>
+                    <li>Golden Key Member</li>
+                    <li>Merit in Mobile Computing II & Algorithms II (2024)</li>
+                    <li>Top 2% in Class of 2024</li>
+                    <li>University Entrance Scholarship (2023)</li>
+                    <li>8 Distinctions (2023), 8 Distinctions (2024)</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>💻 Projects & Activities</h2>
+                <ul>
+                    <li><strong>Seeing Beyond:</strong> AI assistant for blind & deaf individuals.</li>
+                    <li><strong>Study Buddy:</strong> A collaborative study app for students.</li>
+                    <li><strong>Strive Sports:</strong> Facility management system with seamless UI.</li>
+                    <li>Mentored orphaned children using Siyavula digital learning.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>🎯 Skills & Tools</h2>
+                <p>
+                    VS Code, Node.js, Pandas, NumPy, PostgreSQL, MySQL, Azure, 
+                    Express.js, Postman, Swagger, Canva, LaTeX, NPM.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>🧠 Relevant Courses</h2>
+                <ul>
+                    <li>Database Fundamentals</li>
+                    <li>Software Design & Projects</li>
+                    <li>Advanced Algorithms</li>
+                    <li>Machine Learning</li>
+                    <li>Mathematical Modelling</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>💬 Hobbies</h2>
+                <p>
+                    Chess ♟️ | Gaming 🎮 | Reading 📚 | Listening to Amapiano 🎵
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>🧩 Coding Languages</h2>
+                <p>JavaScript, Java, C++, C, PHP, SQL, Python</p>
+            </div>
         </section>
 
+        <section id="contact" class="contact">
+            <h2>📞 Contact Me</h2>
+            <p>Email: <a href="mailto:businessnetshaulu@gmail.com">businessnetshaulu@gmail.com</a></p>
+            <p>Phone: +27 76 612 7732 | +27 62 421 0037</p>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2021 Hulisani Innocent Netshaulu</p>
-    </footer>
 
-    <script src="index.js"></script>
+    <footer class="footer">
+        <p>&copy; 2025 Hulisani Innocent Netshaulu. Built with ❤️ and creativity.</p>
+    </footer>
 </body>
 </html>
