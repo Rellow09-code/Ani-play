@@ -212,3 +212,14 @@ a {
 .header--hidden {
     transform: translateY(-100%);
 }
+
+button{
+    background-color: rgb(183, 255, 248);
+    border-radius: 5px;
+    border-color:  rgb(183, 255, 248);
+}
+button:hover{
+    background-color: white;
+    border-color: rgb(183, 236, 255);
+    box-shadow: 0 0 10px 5px rgb(35, 233, 190);
+}
